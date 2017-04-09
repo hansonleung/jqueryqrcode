@@ -11,6 +11,7 @@ import jp.sourceforge.qrcode.QRCodeDecoder;
 public class ReadQRCode {
 
 	public static void main(String[] args) throws Exception {
+
 		File file = new File("D:/QRCode/QRCode.jpg");
 		BufferedImage bufferedImage = ImageIO.read(file);
 		
